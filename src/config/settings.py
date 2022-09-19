@@ -26,7 +26,9 @@ SECRET_KEY = 'xn$q(y1$t=$^v-taon@e=w^u1u&$*b5sjgrjx$7vki805!^$*s'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ["https://git.heroku.com/automate-emails.git",
+'localhost',
+'127.0.0.1']
 
 
 # Application definition
